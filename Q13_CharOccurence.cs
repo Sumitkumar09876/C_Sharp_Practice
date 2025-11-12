@@ -26,7 +26,6 @@ namespace C_Practice
                     }
                 }
             }
-            
             List<KeyValuePair<char, int>> items = charCount.ToList();
             for (int i = 0; i < items.Count; i++)
             {
