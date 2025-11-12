@@ -8,8 +8,11 @@ using System.Threading.Tasks;
 
 namespace C_Practice
 {
-    public class 
-    internal class GuessANumber
+    public class Gess
+    {
+
+    } 
+    internal class Q12_GuessANumber
     {
     }
 }

@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>C_Practice.Q11_BinarySearch</StartupObject>
+    <StartupObject>C_Practice.Q13_CharOccurence</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,10 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GuessANumber.cs" />
+    <Compile Include="Q12_GuessANumber.cs" />
     <Compile Include="IDrivable.cs" />
     <Compile Include="Q10_SequentailSearch.cs" />
     <Compile Include="Q11_BinarySearch.cs" />
+    <Compile Include="Q13_CharOccurence.cs" />
     <Compile Include="Q2_Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Q1.cs" />
