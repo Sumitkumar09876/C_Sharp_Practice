@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>C_Practice.Q29_SubStrings</StartupObject>
+    <StartupObject>C_Practice.Q33_AngleBtwHr_Min</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -73,6 +73,9 @@
     <Compile Include="Q2.cs" />
     <Compile Include="Q3.cs" />
     <Compile Include="Q30_2DTo1DArray.cs" />
+    <Compile Include="Q31_1DTo2DArray.cs" />
+    <Compile Include="Q32_LeftCircular.cs" />
+    <Compile Include="Q33_AngleBtwHr&amp;Min.cs" />
     <Compile Include="Q4.cs" />
     <Compile Include="Q5.cs" />
     <Compile Include="Q6_Fibonacci_Series.cs" />
