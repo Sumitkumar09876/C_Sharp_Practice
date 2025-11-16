@@ -10,26 +10,26 @@ namespace C_Practice
     {
         public void CountChar(string str)
         {
-            Dictionary<char, int> charCount = new Dictionary<char, int>();
-            
-            for (int i = 0; i < str.Length; i++)
+            string store = str.ToLower();
+            Dictionary<char, int> ch = new Dictionary<char, int>();
+            foreach (char c in store)
             {
-                if (str[i] != ' ')
+                if (c == ' ')
                 {
-                    if (charCount.ContainsKey(str[i]))
-                    {
-                        charCount[str[i]]++;
-                    }
-                    else
-                    {
-                        charCount[str[i]] = 1;
-                    }
+                    continue;
+                }
+                if (ch.ContainsKey(c))
+                {
+                    ch[c]++;
+                }
+                else
+                {
+                    ch[c] = 1;
                 }
             }
-            List<KeyValuePair<char, int>> items = charCount.ToList();
-            for (int i = 0; i < items.Count; i++)
+            foreach (var item in ch)
             {
-                Console.WriteLine($"{items[i].Key}:{items[i].Value}");
+                Console.WriteLine($"{item.Key}:{item.Value}");
             }
         }
     }
@@ -43,3 +43,4 @@ namespace C_Practice
         }
     }
 }
+
